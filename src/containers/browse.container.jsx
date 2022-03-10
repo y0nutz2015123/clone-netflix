@@ -28,7 +28,7 @@ const BrowseContainer = ({ slides }) => {
 
   useEffect(() => {
     setSlideRows(slides[category]);
-    console.log(slideRows);
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slides, category]);
 
@@ -42,10 +42,6 @@ const BrowseContainer = ({ slides }) => {
     const fuse = new Fuse(slideRows, options);
 
     const results = fuse.search(searchTerm).map(({ item }) => item);
-    console.log(
-      "results",
-      results.map(({ item }) => item)
-    );
 
     if (slideRows.length > 0 && searchTerm.length > 3 && results.length > 0) {
       setSlideRows(results);
