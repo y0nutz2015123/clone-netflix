@@ -6515,11 +6515,6 @@ no-case@^3.0.4:
     lower-case "^2.0.2"
     tslib "^2.0.3"
 
-node-bin-setup@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/node-bin-setup/-/node-bin-setup-1.1.0.tgz#9df94c41335a8f41958a639b2736f860582a209c"
-  integrity sha512-pTeU6NgUrexiLNtd+AKwvg6cngHMvj5FZ5e2bbv2ogBSIc9yhkXSSaTScfSRZnwHIh5YFmYSYlemLWkiKD7rog==
-
 node-fetch@2.6.7:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
@@ -6541,13 +6536,6 @@ node-releases@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.2.tgz#7139fe71e2f4f11b47d4d2986aaf8c48699e0c01"
   integrity sha512-XxYDdcQ6eKqp/YjI+tb2C5WM2LgjnZrfYg4vgQt49EK268b6gYCHsBLrK2qvJo4FmCtqmKezb0WZFK4fkrZNsg==
-
-node@^17.5.0:
-  version "17.5.0"
-  resolved "https://registry.yarnpkg.com/node/-/node-17.5.0.tgz#83ca701fd6d095db9eed357ff1f8da65c66a71ea"
-  integrity sha512-phtmk98gFt4w7OYxOimYpkopZPlTV4Wv01hpwQxU4JoNCqN7tNtdhJDa/i7TH4DuJuN4QYeUH+C1/y0QD82Y5g==
-  dependencies:
-    node-bin-setup "^1.0.0"
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
