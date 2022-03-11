@@ -6542,11 +6542,6 @@ node-releases@^2.0.2:
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.2.tgz#7139fe71e2f4f11b47d4d2986aaf8c48699e0c01"
   integrity sha512-XxYDdcQ6eKqp/YjI+tb2C5WM2LgjnZrfYg4vgQt49EK268b6gYCHsBLrK2qvJo4FmCtqmKezb0WZFK4fkrZNsg==
 
-node.js@^0.0.1-security:
-  version "0.0.1-security"
-  resolved "https://registry.yarnpkg.com/node.js/-/node.js-0.0.1-security.tgz#ad5a038f1c70dc7a5f95c8df524cee98534d62a6"
-  integrity sha512-8tWQiyg/3ggdLTrtfgj/NxmZpC20eB1U5VNkqt2dbelpcr3NrfjpEE3DgifpBOCJ4Xu9Obvu8iju63ViQW3Hvg==
-
 node@^17.5.0:
   version "17.5.0"
   resolved "https://registry.yarnpkg.com/node/-/node-17.5.0.tgz#83ca701fd6d095db9eed357ff1f8da65c66a71ea"
