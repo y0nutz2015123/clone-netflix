@@ -5,7 +5,7 @@ import { firebase } from "./lib/firebase";
 
 import { FirebaseContext } from "./context/firebase.context";
 
-import App from "./app";
+import App from "./App";
 
 import { GlobalStyles } from "./global-styles";
 
